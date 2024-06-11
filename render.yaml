@@ -3,7 +3,6 @@ services:
   name: concesionario-api
   env: docker
   buildCommand: mvn clean package -DskipTests
-  startCommand: java -jar /app.jar
   dockerfilePath: ./Dockerfile
   envVars:
   - key: SPRING_PROFILES_ACTIVE
