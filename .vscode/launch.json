@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConcesionarioApplication<concesioario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.concesionario.ConcesionarioApplication",
+            "projectName": "concesioario",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
